@@ -609,7 +609,7 @@ export default {
           value: i,
           inMonth: false,
           action: 'next',
-          unavailable: false,
+          unavailable: true,
           inlimit: false,
           checked: false,
           moment: moment(currentMoment).add(1, 'months').date(i)
